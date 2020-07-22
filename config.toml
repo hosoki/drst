@@ -2,7 +2,6 @@ title = "Don't Repeat the Same Thing"
 baseURL = "https://dontrepeatthesamething.netlify.app/"
 languageCode = "ja"
 theme = "ananke"
-themesDir = "/themes"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "ja"
