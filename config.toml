@@ -1,10 +1,11 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://example.com"
-languageCode = "en-us"
-theme = "gohugo-theme-ananke"
+title = "Don't Repeat the Same Thing"
+baseURL = "https://dontrepeatthesamething.netlify.app/"
+languageCode = "ja"
+theme = "ananke"
+themesDir = "/themes"
 
 MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ja"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
@@ -16,14 +17,14 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
-  site_logo = ""
+  favicon = "favicon.ico"
+  site_logo = "android-icon-36x36.png"
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
+  twitter = "https://twitter.com/daisukehosoki"
   instagram = ""
   youtube = ""
-  github = ""
+  github = "https://github.com/hosoki"
   gitlab = ""
   linkedin = ""
   mastodon = ""
@@ -32,5 +33,5 @@ enableRobotsTXT = true
   rss = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  featured_image = "sample.png"
   recent_posts_number = 2
